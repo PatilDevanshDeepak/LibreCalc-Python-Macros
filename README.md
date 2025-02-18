@@ -35,10 +35,10 @@ now paste the code
 
 
 
-#### Note - You must first call the WorkBook Class and Also Must Create USER DEFINED FUNCTION (in my case "run")
-The below code will create a "run" process. For eg in the code, process "run" selects the range from "A1" to "B1", you can edit code asper your requirements
+#### Note - You must first call the WorkBook Class and Also Must Create USER DEFINED FUNCTION (in my case "Automate")
+The below code will create a "Automate" process. For eg in the code, "Automate" process selects the range from "A1" to "B1", you can edit code asper your requirements
 
 ![image](https://github.com/user-attachments/assets/3e92b8c3-3fa5-4452-b53f-8da2845fc463)
 
 
-# Copy and Paste patch will be commited in new COMMIT
+# Copy and Paste patch will be commited soon
