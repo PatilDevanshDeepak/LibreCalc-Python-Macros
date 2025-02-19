@@ -22,6 +22,8 @@ Then Browse your extension which you downloaded.
 - Select Cell
 - Get Active Selection
 - Navigate Cell/Range with Row & Column
+
+
 And more Automation functionalities
 
 
