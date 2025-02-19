@@ -12,7 +12,7 @@ Steps to Report a Security Issue:
   Do not disclose the vulnerability publicly until it has been addressed.
   Alternatively, you can open a private issue in this repository if you have a GitHub account.
   Include the following details in your report:
-      You can send email on devanshdpatil@gmail.com, subject must be "Github Security Vulnerability".
+      You can send email on devanshdpatil@gmail.com, subject must be "Github Security Vulnerability - LibreOffice-Calc-Python-Macros-like-VBA".
       Set Lable and Type as "Security Vulnerability".
       A description of the vulnerability.
       Steps to reproduce the issue (if possible).
