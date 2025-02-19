@@ -18,6 +18,7 @@ Then Browse your extension which you downloaded.
 
 ### class WorkBook have functionalities like
 - Get Active Sheet
+- Get Active Cell
 - Select Cell
 - Get Active Selection
 - Navigate Cell/Range with Row & Column
