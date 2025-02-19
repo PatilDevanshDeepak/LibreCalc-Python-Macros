@@ -1,5 +1,4 @@
 # LibreCalc-Python-Macros-like-VBA
-# Can Contribute with Pull Request
 
 ## Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/.
 ## Download the Latest version, as old version may not have the extensions support
