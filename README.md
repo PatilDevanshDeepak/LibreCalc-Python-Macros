@@ -1,8 +1,8 @@
 # LibreCalc-Python-Macros-like-VBA
-# Any One Can Contribute, with pull request
+# Can Contribute with Pull Request
 
-# Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/.
-# Download the Latest version, as old version may not have the extensions support
+## Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/.
+## Download the Latest version, as old version may not have the extensions support
 
 "LibreCalc Python Macros like VBA" is offers a small python file that offers CLASS &amp; FUNCTIONALITIES just like VBA. Check out Readme file details. 
 
@@ -43,6 +43,3 @@ The below code will create a "Automate" process. For eg in the code, "Automate" 
 
 ![image](https://github.com/user-attachments/assets/f618b967-a473-4dde-b326-86b288c8dcad)
 
-
-
-# Copy and Paste patch will be commited soon
