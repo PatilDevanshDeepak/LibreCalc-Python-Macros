@@ -17,7 +17,7 @@ class WorkBook:
 	def getActiveCell(self):
 		return self.active.getSelection()
 	
-	def Cells(self, row, col):
+	def Cell(self, row, col):
 		return (self.ActiveSheet.getCellByPosition(col-1, row-1))
 		
 	def Range(self, cellName):
@@ -42,5 +42,6 @@ Calc = WorkBook()
 
 def Automate():
     # edit as per your requirement
+	Calc.Select(Calc.Cell(1 , 1) # Select Cell A1
 	Calc.ActiveCell.setString("Hello World")
 
