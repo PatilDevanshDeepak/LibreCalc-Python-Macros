@@ -42,6 +42,6 @@ Calc = WorkBook()
 
 def Automate():
     # edit as per your requirement
-	Calc.Select(Calc.Cell(1 , 1) # Select Cell A1
+	Calc.Select(Calc.Cell(1 , 1)) # Select Cell A1
 	Calc.ActiveCell.setString("Hello World")
 
