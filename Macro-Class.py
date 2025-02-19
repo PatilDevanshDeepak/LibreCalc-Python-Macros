@@ -42,5 +42,5 @@ Calc = WorkBook()
 
 def Automate():
     # edit as per your requirement
-	Calc.Select(Calc.Range("A1:B5"))
+	Calc.ActiveCell.setString("Hello World")
 
