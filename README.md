@@ -18,14 +18,11 @@ Then Browse your extension which you downloaded.
 ## Functionalities
 
 ### class WorkBook have functionalities like
-![image](https://github.com/user-attachments/assets/91107ab3-05be-4519-9bc4-4a2d6126e223)
-
-
-
-
-### class Constructor
-![Screenshot From 2025-02-18 13-05-18](https://github.com/user-attachments/assets/0428de98-e27d-4ae4-aed2-18e5ee579ca0)
-
+- Get Active Sheet
+- Select Cell
+- Get Active Selection
+- Navigate Cell/Range with Row & Column
+And more Automation functionalities
 
 
 ### Automation
