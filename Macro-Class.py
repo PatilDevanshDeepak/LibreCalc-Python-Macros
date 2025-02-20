@@ -21,7 +21,7 @@ class WorkBook:
 		return (self.ActiveSheet.getCellByPosition(col-1, row-1))
 		
 	def Range(self, rangeName):
-		return (self.ActiveSheet.getCellRangeByName(cellName))
+		return (self.ActiveSheet.getCellRangeByName(rangeName))
 		
 	def Offset(self, rowIndex, colIndex):
 		row = self.ActiveCell.RangeAddress.StartRow + rowIndex
