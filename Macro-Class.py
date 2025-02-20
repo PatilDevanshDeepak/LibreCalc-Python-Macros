@@ -20,7 +20,7 @@ class WorkBook:
 	def Cell(self, row, col):
 		return (self.ActiveSheet.getCellByPosition(col-1, row-1))
 		
-	def Range(self, cellName):
+	def Range(self, rangeName):
 		return (self.ActiveSheet.getCellRangeByName(cellName))
 		
 	def Offset(self, rowIndex, colIndex):
