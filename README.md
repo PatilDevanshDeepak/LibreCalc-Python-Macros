@@ -38,7 +38,7 @@ now paste the code.
 
 
 #### Note - You must first call the WorkBook Class and Also Must Create USER DEFINED FUNCTION (in my case "Automate")
-The below code will create a "Automate" process. For eg in the code, "Automate" process selects the range from "A1" to "B1", you can edit code asper your requirements.
+The below code will create a "Automate" process. For eg in the code, "Automate" process selects the Cell A1 and prints 'Hello world' in it, you can edit code asper your requirements.
 
 ![image](https://github.com/user-attachments/assets/a5b673ac-8f01-46b0-89a4-1fa564354866)
 
