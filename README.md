@@ -1,7 +1,7 @@
 # LibreCalc-Python-Macros-like-VBA
 
 ## ⚡Daily Update Notice⚡
-## This repository MIGHT UPDATE DAILY. Be sure to keep up with new functionalities
+## This repository MIGHT UPDATE DAILY. Be sure to pull up the latest functionalities frequently to stay update
 
 ## Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/.
 ## Download the Latest version, as old version may not have the extensions support
