@@ -7,6 +7,7 @@ class WorkBook:
 		self.ActiveSheet = self.getActiveSheet()
 		self.ActiveCell = self.getActiveSelection()
 		
+	# Macro Functionalities
 	def Select(self, oCell):
 		self.active.select(oCell)
 		self.ActiveCell = oCell.getCellByPosition(0 , 0)
@@ -22,14 +23,14 @@ class WorkBook:
 		
 	def Range(self, rangeName=None , fromCell=None , toCell=None):
 		if self.isRangeNameGiven(isRowIndex=fromCell , isColumnIndex=toCell , isRangeName=rangeName):
-			return self.ActiveSheet.getCellRangeByName(cellName)
+			return self.ActiveSheet.getCellRangeByName(rangeName)
 		else:
 			return self.ActiveSheet.getCellRangeByName(fromCell.AbsoluteName+":"+toCell.AbsoluteName)
 		
 	def Offset(self, rowIndex, colIndex):
 		row = self.ActiveCell.RangeAddress.StartRow + rowIndex
 		col = self.ActiveCell.RangeAddress.StartColumn + colIndex
-		return (self.ActiveSheet.getCellByPosition(col,row))
+		return (self.ActiveSheet.getCellByPosition(col , row))
 		
 	def Row(self, oCell):
 		return 	oCell.RangeAddress.StartRow + 1
@@ -40,25 +41,20 @@ class WorkBook:
 	def MsgBox(self, message, title="Information", msgBoxType=0):
 		self.active.getFrame().getComponentWindow().showMessageBox(message, title, msgBoxType)
 
+	# Funtions for workbook class development
 	def isRangeNameGiven(self, isRowIndex=None , isColumnIndex=None , isRangeName=None):
 		if isRangeName!=None and (isRowIndex==None and isColumnIndex==None):
 			return True
 		elif isRangeName==None and (isRowIndex!=None and isColumnIndex!=None):
 			return False
 
-	def isNull(self, rowIndex=None , columnIndex=None , rangeName=None):
-		if self.isRangeNameGiven(isRowIndex=rowIndex , isColumnIndex=columnIndex , isRangeName=rangeName):
-			return True if len(self.Range(rangeName).getString())==0 else False
-		else:
-			return True if len(self.Cell(rowIndex , columnIndex).getString())==0 else False
-
+	def isNull(self, oCell):
+		return True if len(oCell.getString())==0 else False
 
 
 
 Calc = WorkBook()
 
 def Automate():
-    # edit as per your requirement
-	Calc.Select(Calc.Range(fromCell=Calc.Cell(1 , 1) , toCell=Calc.Cell(5 , 5)))
-	Calc.ActiveCell.setString("Hello")
-
+	Calc.Select(Calc.Cell(1 , 1))
+	Calc.setString("Hello World")
