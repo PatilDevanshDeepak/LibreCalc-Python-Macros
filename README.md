@@ -1,8 +1,5 @@
 # LibreCalc-Python-Macros-like-VBA
 
-## ⚡Frequent Update Notice⚡
-## This repository MIGHT GET UPDATED FREQUENTLY. Be sure to pull up the latest Automation Features frequently to stay update
-
 ## Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/. Download the Latest version, as old version may not have the extensions support
 
 "LibreCalc Python Macros like VBA" is offers a small python file that offers CLASS &amp; FUNCTIONALITIES just like VBA. Check out Readme file details. 
