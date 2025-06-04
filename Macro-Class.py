@@ -37,9 +37,6 @@ class WorkBook:
 	
 	def Column(self, oCell):
 		return oCell.RangeAddress.StartColumn + 1
-	
-	def MsgBox(self, message, title="Information", msgBoxType=0):
-		self.active.getFrame().getComponentWindow().showMessageBox(message, title, msgBoxType)
 
 	# Funtions for workbook class development
 	def isRangeNameGiven(self, isRowIndex=None , isColumnIndex=None , isRangeName=None):
