@@ -21,18 +21,6 @@ class WorkBook:
 			return self.ActiveSheet.getCellRangeByName(rangeName)
 		else:
 			return self.ActiveSheet.getCellRangeByName(fromCell.AbsoluteName+":"+toCell.AbsoluteName)
-
-	def getStartColumn(self):	# Returns starting column of ActiveCell as a number, suppose ActiveCell = G1, starting column (in number) = 1 as column "A"
-		return oCell.RangeAddress.StartColumn
-
-	def getStartRow(self):	# Returns starting Row of ActiveCell as a number, suppose ActiveCell = A15, starting row (in number) = 1 as row "1"
-		return oCell.RangeAddress.StartRow
-
-	def getEndColumn(self):
-		return self.ActiveSheet.Columns.Count
-
-	def getEndRow(self):
-		return self.ActiveSheet.Rows.Count
 		
 	def Offset(self, rowIndex, colIndex):	# jumps as given rowIndex/column index
 		maxColumns = self.ActiveSheet.Columns.Count - 1
@@ -51,6 +39,18 @@ class WorkBook:
 	
 	def MsgBox(self, message="none", title="Information", msgBoxType=0):	# Issues with this function
 		self.active.getFrame().getComponentWindow().showMessageBox(message, title, msgBoxType)
+
+	def getStartColumn(self):	# Returns starting column of ActiveCell as a number, suppose ActiveCell = G1, starting column (in number) = 1 as column "A"
+		return oCell.RangeAddress.StartColumn
+
+	def getStartRow(self):	# Returns starting Row of ActiveCell as a number, suppose ActiveCell = A15, starting row (in number) = 1 as row "1"
+		return oCell.RangeAddress.StartRow
+
+	def getEndColumn(self):
+		return self.ActiveSheet.Columns.Count
+
+	def getEndRow(self):
+		return self.ActiveSheet.Rows.Count
 
 	def clcToRight(self):	# This function is like xlToRight in VBA
 		nullCell = self.isNull(self.ActiveCell)
