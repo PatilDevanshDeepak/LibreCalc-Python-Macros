@@ -2,7 +2,7 @@
 
 ## Libreoffice Free & Opensource Office Suite - https://www.libreoffice.org/download/download-libreoffice/. Download the Latest version, as old version may not have the extensions support
 
-"LibreCalc Python Macros like VBA" is offers a small python file that offers CLASS &amp; FUNCTIONALITIES just like VBA. Check out Readme file details. 
+"LibreCalc Python Macros like VBA" offers a small python file that comes with CLASS &amp; FUNCTIONALITIES just like VBA.
 
 
 ### Download Python Macros Extension for LibreCalc (APSO)
@@ -29,7 +29,7 @@ And more Automation functionalities
 ### Automation
 
 Goto -> Tools -> Macros -> Orgranize python Script (Note - 'Orgranize python Script' option will only appeare when you install the python extension).
-In MyMacros goto -> Modules -> create module and give a name to the module.
+In MyMacros goto -> Modules -> Click on menu -> create module, Give a name to the module.
 New module will be created, no click on the module which you created.
 Goto -> Menu -> Edit.
 now paste the code.
