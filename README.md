@@ -15,4 +15,4 @@
 Removed Error Message when Offsetting beyond Sheets Rows/Columns
 
 
-### Note this experimental version may have some issues 
+### Note this experimental version may have some bugs
