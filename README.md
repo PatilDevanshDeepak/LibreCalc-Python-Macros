@@ -16,11 +16,8 @@ Then Browse your extension which you downloaded.
 ## Functionalities
 
 ### class WorkBook have functionalities like
-- Get Active Sheet
-- Get Active Cell
-- Select Cell
-- Get Active Selection
-- Navigate Cell/Range with Row & Column
+![image](https://github.com/user-attachments/assets/5d759efd-70ac-4ffc-a6e1-a08b8e58e800)
+
 
 
 And more Automation functionalities
