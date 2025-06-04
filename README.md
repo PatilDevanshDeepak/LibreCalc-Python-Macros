@@ -10,7 +10,7 @@
    
 
 
-### 3. Fixed bugs
+### 2. Fixed bugs
 
 Removed Error Message when Offsetting beyond Sheets Rows/Columns
 
