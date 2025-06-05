@@ -57,5 +57,5 @@ class WorkBook:
 Calc = WorkBook()
 
 def Automate():
-	Calc.Select(Calc.Cell(1 , 1))
+	Calc.Select(Calc.Range("A1"))
 	Calc.setString("Hello World")
