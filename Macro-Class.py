@@ -125,5 +125,4 @@ class WorkBook:
 Calc = WorkBook()
 
 def Automate():
-	Calc.Select(Calc.Range("A1"))
-	Calc.Select(Calc.Range(fromCell=Calc.Cell(1 , 1) , toCell=Calc.Cell(10 , 5)))
+	Calc.Select(Calc.Range(fromCell=Calc.Cell(1 , 1) , toCell=Calc.Cell(10 , 5)))	# selects range form cell A1 to E10
