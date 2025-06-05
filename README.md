@@ -10,9 +10,10 @@
    
 
 
-### 2. Fixed bugs
+### 2. Changes
 
-Removed Error Message when Offsetting beyond Sheets Rows/Columns
+![image](https://github.com/user-attachments/assets/2c189523-d418-4093-b7a4-08639ec28f39)
+
 
 
 ### Note this experimental version may have some bugs
