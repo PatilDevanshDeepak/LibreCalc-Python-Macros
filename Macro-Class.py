@@ -92,7 +92,7 @@ class WorkBook:
 			count -= 1
 		return self.Offset(count+1 if not self.isNull(self.ActiveCell) else count , 0)
 
-	def WorksheetFunctions(self, functionName , args):       # Calc.WorksheetFunctions("functionName in capital" , [args as tuple])
+	def WorksheetFunctions(self, functionName , args):       # Calc.WorksheetFunctions("functionName in capital" , [args as tuple]) for eg: Calc.Offset(0 , -1).Value = Calc.WorksheetFunctions("ISBLANK" , [Calc.ActiveCell.getString()]. IF you are giving cell ref. always add .getString() ahead
 		smgr = XSCRIPTCONTEXT.getComponentContext().ServiceManager
 		func_access = smgr.createInstanceWithContext(
 			"com.sun.star.sheet.FunctionAccess",
