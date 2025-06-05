@@ -28,9 +28,13 @@ class WorkBook:
 			return self.ActiveSheet.getCellRangeByName(fromCell.AbsoluteName+":"+toCell.AbsoluteName)
 		
 	def Offset(self, rowIndex, colIndex):
-		row = self.ActiveCell.RangeAddress.StartRow + rowIndex
-		col = self.ActiveCell.RangeAddress.StartColumn + colIndex
-		return (self.ActiveSheet.getCellByPosition(col , row))
+		maxColumns = self.ActiveSheet.Columns.Count - 1
+		maxRows = self.ActiveSheet.Rows.Count - 1
+		newRow = self.ActiveCell.RangeAddress.StartRow + rowIndex
+		newCol = self.ActiveCell.RangeAddress.StartColumn + colIndex
+		newRow = max(0, min(newRow, maxRows))
+		newCol = max(0, min(newCol, maxColumns))
+		return self.ActiveSheet.getCellByPosition(newCol, newRow)
 		
 	def Row(self, oCell):
 		return 	oCell.RangeAddress.StartRow + 1
