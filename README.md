@@ -20,7 +20,7 @@ Then Browse your extension which you downloaded.
 
 
 
-And more Automation functionalities
+Check v 0.2 for more features 
 
 
 ### Automation
